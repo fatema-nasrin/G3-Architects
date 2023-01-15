@@ -261,3 +261,61 @@ section-4-fact style start
     align-items: center;
     
  }
+
+ @media screen and (max-width:767px) {
+    .container-1{
+        height: 800px;
+        width: 100%;
+        background-color: white;
+    }
+    .container-1 .nav-info,.nav-info div{
+       display: grid;
+       grid-template-columns: 1fr;
+       
+    
+    }
+    .container-1 .heading-info{
+        margin-right: 250px;
+        padding: 0 30px;
+        text-align: center;
+    }
+    .container-1 .image img{
+        height: 200px;
+        width: 350px;
+        margin: 10px 100px 100px 0;
+        padding-left: 20px;
+    }
+    
+    
+    .container-2-paragraph{
+        padding-right: 200px;
+        padding-top: 400px;
+    }
+    .container-2 div{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+    }
+    .container-3{
+        height: max-content;
+        
+        display: block;
+    }
+    .container-4 .fact-boxes{
+        height: max-content;
+        
+        display: block;
+    }
+    .container-5 .sponsor-logo{
+        display: block;
+        
+    }
+    
+    .container-5 .sponsor .sponsor-details{
+      display: flex;
+      flex-direction: column;
+      margin:0 100px 0 0;
+       
+    }
+    
+}
